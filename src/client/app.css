@@ -82,7 +82,7 @@ li.item p {
   margin: 0;
 }
 
-button.remove-item {
+button.add_remove-item {
   position: absolute;
   top: -13px;
   right: -13px;
@@ -98,6 +98,6 @@ button.remove-item {
   cursor: pointer;
 }
 
-button.remove-item:focus {
+button.add_remove-item:focus {
   outline: none;
 }

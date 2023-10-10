@@ -21,3 +21,11 @@ npm run dev
 
 ## Run tests
 npm run test
+
+# Design Decisions
+1. I upgraded all the dependencies to be Node.js v20 compatible
+2. I use React `SWR` library for data fetching.
+3. `/src/client/components` contains all the react components
+4. `/srv/client/lib/` contains reusable libraries for frontend
+5. `/src/client/model/` contains model for different data structures.
+6. I created `/srv/client/lib/useSWRWithFetcher.js` library to reuse code for retrieving data from server side easily.
